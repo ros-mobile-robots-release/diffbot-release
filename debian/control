@@ -1,0 +1,12 @@
+Source: ros-noetic-diffbot-base
+Section: misc
+Priority: optional
+Maintainer: Franz Pucher <fp@fjp.at>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-control-toolbox, ros-noetic-controller-manager, ros-noetic-diagnostic-updater, ros-noetic-diff-drive-controller, ros-noetic-diffbot-msgs, ros-noetic-dynamic-reconfigure, ros-noetic-hardware-interface, ros-noetic-roscpp, ros-noetic-rosparam-shortcuts, ros-noetic-sensor-msgs, ros-noetic-urdf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-diffbot-base
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-control-toolbox, ros-noetic-controller-manager, ros-noetic-diagnostic-updater, ros-noetic-diff-drive-controller, ros-noetic-diffbot-msgs, ros-noetic-dynamic-reconfigure, ros-noetic-hardware-interface, ros-noetic-roscpp, ros-noetic-rosparam-shortcuts, ros-noetic-rosserial, ros-noetic-sensor-msgs, ros-noetic-urdf
+Description: The diffbot_base package
