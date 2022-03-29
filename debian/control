@@ -1,0 +1,12 @@
+Source: ros-noetic-diffbot-control
+Section: misc
+Priority: optional
+Maintainer: Franz Pucher <ros@fjp.at>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-controller-manager, ros-noetic-diff-drive-controller, ros-noetic-hardware-interface, ros-noetic-roscpp, ros-noetic-rosparam-shortcuts, ros-noetic-sensor-msgs, ros-noetic-transmission-interface
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-diffbot-control
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-controller-manager, ros-noetic-diff-drive-controller, ros-noetic-hardware-interface, ros-noetic-joint-state-controller, ros-noetic-robot-state-publisher, ros-noetic-roscpp, ros-noetic-rosparam-shortcuts, ros-noetic-sensor-msgs, ros-noetic-transmission-interface
+Description: The diffbot_control package
