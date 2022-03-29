@@ -1,0 +1,26 @@
+ros-noetic-diffbot-mbf (1.1.0-1buster) buster; urgency=high
+
+
+
+ -- fjp <fjp@todo.todo>  Sun, 27 Mar 2022 22:00:00 -0000
+
+ros-noetic-diffbot-mbf (1.0.0-1buster) buster; urgency=high
+
+
+
+ -- fjp <fjp@todo.todo>  Thu, 12 Aug 2021 22:00:00 -0000
+
+ros-noetic-diffbot-mbf (0.0.2-1buster) buster; urgency=high
+
+
+
+ -- fjp <fjp@todo.todo>  Thu, 29 Apr 2021 22:00:00 -0000
+
+ros-noetic-diffbot-mbf (0.0.1-1buster) buster; urgency=high
+
+  * add diffbot_mbf move base flex package
+  * Contributors: Franz Pucher
+
+ -- fjp <fjp@todo.todo>  Mon, 21 Dec 2020 23:00:00 -0000
+
+
