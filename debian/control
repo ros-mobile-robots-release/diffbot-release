@@ -1,0 +1,12 @@
+Source: ros-noetic-diffbot-robot
+Section: misc
+Priority: optional
+Maintainer: Franz Pucher <ros@fjp.at>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-diffbot-robot
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-diffbot-base, ros-noetic-diffbot-bringup, ros-noetic-diffbot-control, ros-noetic-diffbot-description, ros-noetic-diffbot-gazebo, ros-noetic-diffbot-navigation
+Description: The diffbot_robot package
