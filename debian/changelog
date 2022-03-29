@@ -1,0 +1,28 @@
+ros-noetic-diffbot-robot (1.1.0-1buster) buster; urgency=high
+
+
+
+ -- Franz Pucher <ros@fjp.at>  Sun, 27 Mar 2022 22:00:00 -0000
+
+ros-noetic-diffbot-robot (1.0.0-1buster) buster; urgency=high
+
+  * Update package.xml
+    remove grove_motor_driver exec dependency
+  * Contributors: Franz Pucher
+
+ -- Franz Pucher <ros@fjp.at>  Thu, 12 Aug 2021 22:00:00 -0000
+
+ros-noetic-diffbot-robot (0.0.2-1buster) buster; urgency=high
+
+
+
+ -- Franz Pucher <ros@fjp.at>  Thu, 29 Apr 2021 22:00:00 -0000
+
+ros-noetic-diffbot-robot (0.0.1-1buster) buster; urgency=high
+
+  * add metapackage for DiffBot
+  * Contributors: Franz Pucher
+
+ -- Franz Pucher <ros@fjp.at>  Mon, 21 Dec 2020 23:00:00 -0000
+
+
