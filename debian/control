@@ -1,0 +1,12 @@
+Source: ros-noetic-diffbot-navigation
+Section: misc
+Priority: optional
+Maintainer: fjp <ros@fjp.at>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-amcl, ros-noetic-catkin, ros-noetic-diffbot-bringup, ros-noetic-map-server, ros-noetic-move-base
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-diffbot-navigation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-amcl, ros-noetic-base-local-planner, ros-noetic-diffbot-bringup, ros-noetic-dwa-local-planner, ros-noetic-map-server, ros-noetic-move-base
+Description: The diffbot_navigation package
