@@ -1,0 +1,49 @@
+ros-noetic-diffbot-msgs (1.1.0-1focal) focal; urgency=high
+
+
+
+ -- fjp <ros@fjp.at>  Sun, 27 Mar 2022 22:00:00 -0000
+
+ros-noetic-diffbot-msgs (1.0.0-1focal) focal; urgency=high
+
+  * add AngularVelocitiesStamped.msg
+  * add and refactor diffbot_msgs
+    - Rename WheelCmd.msg to WheelsCmd.msg and removed Header
+    - Add WheelsCmdStamped.msg
+    - PID.msg and PIDStamped.msg
+    - Refactor Encoders.msg (removing Header)  and add EncodersStamped.msg
+  * add WheelCmd.msg for angular wheel joint velocities
+  * feature: update diffbot_hw_interface
+    - add angular wheel joint velocity publisher
+    - add new WheelCmd.msg in diffbot_msgs
+    - load new hardware related parameters from
+    diffbot_base/config/base.yaml
+    - get hardware related parameters from parameter server
+    in diffbot_hw_interface
+    - add gain trim parameters to dynamic reconfigure cfg
+  * refactor diffbot_msgs
+    - rename Encoder.msg  to Encoders.msg
+    - update diffbot_pase includes and method signatures
+    - update arduino script
+    - change diffbot_msgs license to BSDv3
+  * Contributors: Franz Pucher
+
+ -- fjp <ros@fjp.at>  Thu, 12 Aug 2021 22:00:00 -0000
+
+ros-noetic-diffbot-msgs (0.0.2-1focal) focal; urgency=high
+
+
+
+ -- fjp <ros@fjp.at>  Thu, 29 Apr 2021 22:00:00 -0000
+
+ros-noetic-diffbot-msgs (0.0.1-1focal) focal; urgency=high
+
+  * Initial release
+  * Create diffbot_msgs package
+  * Add encoder message
+  * Update documentation
+  * Contributors: Franz Pucher
+
+ -- fjp <ros@fjp.at>  Mon, 21 Dec 2020 23:00:00 -0000
+
+
