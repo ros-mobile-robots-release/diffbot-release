@@ -1,0 +1,12 @@
+Source: ros-noetic-diffbot-bringup
+Section: misc
+Priority: optional
+Maintainer: fjp <fp@fjp.at>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-diffbot-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-teleop-twist-keyboard
+Description: The diffbot_bringup package
