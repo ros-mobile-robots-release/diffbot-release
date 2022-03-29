@@ -1,0 +1,42 @@
+ros-noetic-diffbot-gazebo (1.1.0-1focal) focal; urgency=high
+
+  * Update diffbot_gazebo/diffbot_view.launch
+    Use db_world as default instead of corridor world
+  * Contributors: Franz Pucher
+
+ -- Franz Pucher <fp@fjp.at>  Sun, 27 Mar 2022 22:00:00 -0000
+
+ros-noetic-diffbot-gazebo (1.0.0-1focal) focal; urgency=high
+
+  * use db_world as default world for diffbot_gazebo/launch/diffbot.launch
+  * update rviz and gazebo view ports
+  * add diffbot_world and export model
+  * remove non-working empty.world and add working diffbot_empty.world
+  * add model arg to launch files for remo
+  * Contributors: Franz Pucher
+
+ -- Franz Pucher <fp@fjp.at>  Thu, 12 Aug 2021 22:00:00 -0000
+
+ros-noetic-diffbot-gazebo (0.0.2-1focal) focal; urgency=high
+
+
+
+ -- Franz Pucher <fp@fjp.at>  Thu, 29 Apr 2021 22:00:00 -0000
+
+ros-noetic-diffbot-gazebo (0.0.1-1focal) focal; urgency=high
+
+  * add x y z starting position args to diffbot_gazebo/launch/diffbot_view.launch
+  * update diffbot control and gazebo launch files: prepare for slam packages
+  * Create README.md
+  * add world_name arg and use corridor.word by default
+  * update world files
+  * add turtlebot3_world.world and use it by default
+  * rename world folder and add turtlebot worlds
+  * add new diffbot_description
+  * Update version, mail and license
+  * move packages from ros/src to repository toplevel folder
+  * Contributors: Franz Pucher
+
+ -- Franz Pucher <fp@fjp.at>  Mon, 21 Dec 2020 23:00:00 -0000
+
+

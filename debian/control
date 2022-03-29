@@ -1,0 +1,12 @@
+Source: ros-noetic-diffbot-gazebo
+Section: misc
+Priority: optional
+Maintainer: Franz Pucher <fp@fjp.at>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-diffbot-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-diffbot-control, ros-noetic-diffbot-description, ros-noetic-gazebo-plugins, ros-noetic-gazebo-ros, ros-noetic-gazebo-ros-control, ros-noetic-xacro
+Description: The diffbot_gazebo package
