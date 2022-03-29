@@ -1,0 +1,53 @@
+ros-noetic-diffbot-description (1.1.0-1buster) buster; urgency=high
+
+  * fix deprecated warning using load_yaml (#53 <https://github.com/ros-mobile-robots/diffbot/issues/53>)
+    Using xacro.load_yaml instead of just load_yaml
+  * Contributors: Franz Pucher
+
+ -- Franz Pucher <ros@fjp.at>  Sun, 27 Mar 2022 22:00:00 -0000
+
+ros-noetic-diffbot-description (1.0.0-1buster) buster; urgency=high
+
+  * make use of non-gpu laser by default update min/max range to fix ghost objects (#27 <https://github.com/ros-mobile-robots/diffbot/issues/27>)
+  * update diffbot_description: add gpu arg for laser xacro macro (#27 <https://github.com/ros-mobile-robots/diffbot/issues/27>)
+  * fix diffbot_description laser link name
+  * update camera sensor parameters
+  * fix scale if statement in motor xacro macro
+  * update motor.yaml comment
+  * refactor diffbot_description
+    - move stl files
+    - use separate robot.gazebo.xacro
+    - add addon xacro macro for addon components
+    - simplify wheel and motor macros: remove top level name from yaml files
+    - move caster macro to its own xacro file
+    - add camera sensor macro
+    - add imu sensor macro
+    - refactor gpu laser macro
+    - update license to BSDv3
+  * Contributors: Franz Pucher
+
+ -- Franz Pucher <ros@fjp.at>  Thu, 12 Aug 2021 22:00:00 -0000
+
+ros-noetic-diffbot-description (0.0.2-1buster) buster; urgency=high
+
+
+
+ -- Franz Pucher <ros@fjp.at>  Thu, 29 Apr 2021 22:00:00 -0000
+
+ros-noetic-diffbot-description (0.0.1-1buster) buster; urgency=high
+
+  * Update README.md
+  * add z_offset to diffbot base_footprint description for moving on the ground in rviz
+  * add colors for gazebo
+  * update description configs: caster dz and increase mass to avoid slip
+  * include gpu_laser - rplidar a2 for diffbot
+  * change z offset in blender for rplidar stl
+  * add rplidar a2 mesh
+  * remove deprecated diffbot_description
+  * Update version, mail and license
+  * move packages from ros/src to repository toplevel folder
+  * Contributors: Franz Pucher
+
+ -- Franz Pucher <ros@fjp.at>  Mon, 21 Dec 2020 23:00:00 -0000
+
+
